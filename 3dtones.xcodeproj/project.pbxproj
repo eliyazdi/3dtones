@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB7EE8E1CC7BBC700A2116C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */; };
+		FBB7EE901CC7BBC700A2116C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */; };
+		FBB7EE931CC7BBC700A2116C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE911CC7BBC700A2116C /* Main.storyboard */; };
+		FBB7EE961CC7BBC700A2116C /* _dtones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE941CC7BBC700A2116C /* _dtones.xcdatamodeld */; };
+		FBB7EE981CC7BBC700A2116C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE971CC7BBC700A2116C /* Assets.xcassets */; };
+		FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE991CC7BBC700A2116C /* LaunchScreen.storyboard */; };
+		FBB7EEA61CC7BBC700A2116C /* _dtonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEA51CC7BBC700A2116C /* _dtonesTests.swift */; };
+		FBB7EEB11CC7BBC700A2116C /* _dtonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB7EEA21CC7BBC700A2116C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB7EE821CC7BBC600A2116C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB7EE891CC7BBC600A2116C;
+			remoteInfo = 3dtones;
+		};
+		FBB7EEAD1CC7BBC700A2116C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB7EE821CC7BBC600A2116C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB7EE891CC7BBC600A2116C;
+			remoteInfo = 3dtones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dtones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBB7EE921CC7BBC700A2116C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB7EE951CC7BBC700A2116C /* _dtones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _dtones.xcdatamodel; sourceTree = "<group>"; };
+		FBB7EE971CC7BBC700A2116C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB7EE9A1CC7BBC700A2116C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB7EE9C1CC7BBC700A2116C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB7EEA11CC7BBC700A2116C /* 3dtonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3dtonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB7EEA51CC7BBC700A2116C /* _dtonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dtonesTests.swift; sourceTree = "<group>"; };
+		FBB7EEA71CC7BBC700A2116C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3dtonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dtonesUITests.swift; sourceTree = "<group>"; };
+		FBB7EEB21CC7BBC700A2116C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB7EE871CC7BBC600A2116C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EE9E1CC7BBC700A2116C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EEA91CC7BBC700A2116C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB7EE811CC7BBC600A2116C = {
+			isa = PBXGroup;
+			children = (
+				FBB7EE8C1CC7BBC700A2116C /* 3dtones */,
+				FBB7EEA41CC7BBC700A2116C /* 3dtonesTests */,
+				FBB7EEAF1CC7BBC700A2116C /* 3dtonesUITests */,
+				FBB7EE8B1CC7BBC600A2116C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB7EE8B1CC7BBC600A2116C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */,
+				FBB7EEA11CC7BBC700A2116C /* 3dtonesTests.xctest */,
+				FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB7EE8C1CC7BBC700A2116C /* 3dtones */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */,
+				FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */,
+				FBB7EE911CC7BBC700A2116C /* Main.storyboard */,
+				FBB7EE971CC7BBC700A2116C /* Assets.xcassets */,
+				FBB7EE991CC7BBC700A2116C /* LaunchScreen.storyboard */,
+				FBB7EE9C1CC7BBC700A2116C /* Info.plist */,
+				FBB7EE941CC7BBC700A2116C /* _dtones.xcdatamodeld */,
+			);
+			path = 3dtones;
+			sourceTree = "<group>";
+		};
+		FBB7EEA41CC7BBC700A2116C /* 3dtonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7EEA51CC7BBC700A2116C /* _dtonesTests.swift */,
+				FBB7EEA71CC7BBC700A2116C /* Info.plist */,
+			);
+			path = 3dtonesTests;
+			sourceTree = "<group>";
+		};
+		FBB7EEAF1CC7BBC700A2116C /* 3dtonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */,
+				FBB7EEB21CC7BBC700A2116C /* Info.plist */,
+			);
+			path = 3dtonesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB7EE891CC7BBC600A2116C /* 3dtones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB7EEB51CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtones" */;
+			buildPhases = (
+				FBB7EE861CC7BBC600A2116C /* Sources */,
+				FBB7EE871CC7BBC600A2116C /* Frameworks */,
+				FBB7EE881CC7BBC600A2116C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3dtones;
+			productName = 3dtones;
+			productReference = FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB7EEA01CC7BBC700A2116C /* 3dtonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB7EEB81CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesTests" */;
+			buildPhases = (
+				FBB7EE9D1CC7BBC700A2116C /* Sources */,
+				FBB7EE9E1CC7BBC700A2116C /* Frameworks */,
+				FBB7EE9F1CC7BBC700A2116C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB7EEA31CC7BBC700A2116C /* PBXTargetDependency */,
+			);
+			name = 3dtonesTests;
+			productName = 3dtonesTests;
+			productReference = FBB7EEA11CC7BBC700A2116C /* 3dtonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBB7EEAB1CC7BBC700A2116C /* 3dtonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB7EEBB1CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesUITests" */;
+			buildPhases = (
+				FBB7EEA81CC7BBC700A2116C /* Sources */,
+				FBB7EEA91CC7BBC700A2116C /* Frameworks */,
+				FBB7EEAA1CC7BBC700A2116C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB7EEAE1CC7BBC700A2116C /* PBXTargetDependency */,
+			);
+			name = 3dtonesUITests;
+			productName = 3dtonesUITests;
+			productReference = FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB7EE821CC7BBC600A2116C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eli Yazdi";
+				TargetAttributes = {
+					FBB7EE891CC7BBC600A2116C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3NBA9YL8AA;
+					};
+					FBB7EEA01CC7BBC700A2116C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3NBA9YL8AA;
+						TestTargetID = FBB7EE891CC7BBC600A2116C;
+					};
+					FBB7EEAB1CC7BBC700A2116C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3NBA9YL8AA;
+						TestTargetID = FBB7EE891CC7BBC600A2116C;
+					};
+				};
+			};
+			buildConfigurationList = FBB7EE851CC7BBC600A2116C /* Build configuration list for PBXProject "3dtones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB7EE811CC7BBC600A2116C;
+			productRefGroup = FBB7EE8B1CC7BBC600A2116C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB7EE891CC7BBC600A2116C /* 3dtones */,
+				FBB7EEA01CC7BBC700A2116C /* 3dtonesTests */,
+				FBB7EEAB1CC7BBC700A2116C /* 3dtonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB7EE881CC7BBC600A2116C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */,
+				FBB7EE981CC7BBC700A2116C /* Assets.xcassets in Resources */,
+				FBB7EE931CC7BBC700A2116C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EE9F1CC7BBC700A2116C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EEAA1CC7BBC700A2116C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB7EE861CC7BBC600A2116C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB7EE961CC7BBC700A2116C /* _dtones.xcdatamodeld in Sources */,
+				FBB7EE901CC7BBC700A2116C /* ViewController.swift in Sources */,
+				FBB7EE8E1CC7BBC700A2116C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EE9D1CC7BBC700A2116C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB7EEA61CC7BBC700A2116C /* _dtonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB7EEA81CC7BBC700A2116C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB7EEB11CC7BBC700A2116C /* _dtonesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB7EEA31CC7BBC700A2116C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB7EE891CC7BBC600A2116C /* 3dtones */;
+			targetProxy = FBB7EEA21CC7BBC700A2116C /* PBXContainerItemProxy */;
+		};
+		FBB7EEAE1CC7BBC700A2116C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB7EE891CC7BBC600A2116C /* 3dtones */;
+			targetProxy = FBB7EEAD1CC7BBC700A2116C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBB7EE911CC7BBC700A2116C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB7EE921CC7BBC700A2116C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBB7EE991CC7BBC700A2116C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB7EE9A1CC7BBC700A2116C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB7EEB31CC7BBC700A2116C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB7EEB41CC7BBC700A2116C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB7EEB61CC7BBC700A2116C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3dtones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBB7EEB71CC7BBC700A2116C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3dtones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBB7EEB91CC7BBC700A2116C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3dtonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3dtones.app/3dtones";
+			};
+			name = Debug;
+		};
+		FBB7EEBA1CC7BBC700A2116C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3dtonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3dtones.app/3dtones";
+			};
+			name = Release;
+		};
+		FBB7EEBC1CC7BBC700A2116C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3dtonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3dtones;
+			};
+			name = Debug;
+		};
+		FBB7EEBD1CC7BBC700A2116C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3dtonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3dtones;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB7EE851CC7BBC600A2116C /* Build configuration list for PBXProject "3dtones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB7EEB31CC7BBC700A2116C /* Debug */,
+				FBB7EEB41CC7BBC700A2116C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB7EEB51CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB7EEB61CC7BBC700A2116C /* Debug */,
+				FBB7EEB71CC7BBC700A2116C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBB7EEB81CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB7EEB91CC7BBC700A2116C /* Debug */,
+				FBB7EEBA1CC7BBC700A2116C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBB7EEBB1CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB7EEBC1CC7BBC700A2116C /* Debug */,
+				FBB7EEBD1CC7BBC700A2116C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBB7EE941CC7BBC700A2116C /* _dtones.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBB7EE951CC7BBC700A2116C /* _dtones.xcdatamodel */,
+			);
+			currentVersion = FBB7EE951CC7BBC700A2116C /* _dtones.xcdatamodel */;
+			path = _dtones.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBB7EE821CC7BBC600A2116C /* Project object */;
+}
