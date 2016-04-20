@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0B59271CC7E25C00C4A9AA /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0B59251CC7E25C00C4A9AA /* black.jpg */; };
+		FB0B59281CC7E25C00C4A9AA /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0B59261CC7E25C00C4A9AA /* white.jpg */; };
 		FBB7EE8E1CC7BBC700A2116C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */; };
 		FBB7EE901CC7BBC700A2116C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */; };
 		FBB7EE931CC7BBC700A2116C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE911CC7BBC700A2116C /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE991CC7BBC700A2116C /* LaunchScreen.storyboard */; };
 		FBB7EEA61CC7BBC700A2116C /* _dtonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEA51CC7BBC700A2116C /* _dtonesTests.swift */; };
 		FBB7EEB11CC7BBC700A2116C /* _dtonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */; };
+		FBB7EEC41CC7BD1B00A2116C /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEBE1CC7BD1B00A2116C /* a.mp3 */; };
+		FBB7EEC51CC7BD1B00A2116C /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEBF1CC7BD1B00A2116C /* c.mp3 */; };
+		FBB7EEC61CC7BD1B00A2116C /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEC01CC7BD1B00A2116C /* d.mp3 */; };
+		FBB7EEC71CC7BD1B00A2116C /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEC11CC7BD1B00A2116C /* e.mp3 */; };
+		FBB7EEC81CC7BD1B00A2116C /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEC21CC7BD1B00A2116C /* f.mp3 */; };
+		FBB7EEC91CC7BD1B00A2116C /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EEC31CC7BD1B00A2116C /* g.mp3 */; };
+		FBB7EECB1CC7C29200A2116C /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EECA1CC7C29200A2116C /* b.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB0B59251CC7E25C00C4A9AA /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black.jpg; path = ../../Downloads/SwiftPiano/image/black.jpg; sourceTree = "<group>"; };
+		FB0B59261CC7E25C00C4A9AA /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white.jpg; path = ../../Downloads/SwiftPiano/image/white.jpg; sourceTree = "<group>"; };
 		FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dtones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3dtonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dtonesUITests.swift; sourceTree = "<group>"; };
 		FBB7EEB21CC7BBC700A2116C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB7EEBE1CC7BD1B00A2116C /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = a.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/a.mp3"; sourceTree = "<group>"; };
+		FBB7EEBF1CC7BD1B00A2116C /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = c.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/c.mp3"; sourceTree = "<group>"; };
+		FBB7EEC01CC7BD1B00A2116C /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/d.mp3"; sourceTree = "<group>"; };
+		FBB7EEC11CC7BD1B00A2116C /* e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = e.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/e.mp3"; sourceTree = "<group>"; };
+		FBB7EEC21CC7BD1B00A2116C /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/f.mp3"; sourceTree = "<group>"; };
+		FBB7EEC31CC7BD1B00A2116C /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = g.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/g.mp3"; sourceTree = "<group>"; };
+		FBB7EECA1CC7C29200A2116C /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = b.mp3; path = "../../Downloads/12995__tesabob2001__piano-keys-c3-c6/b.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,15 @@
 		FBB7EE8C1CC7BBC700A2116C /* 3dtones */ = {
 			isa = PBXGroup;
 			children = (
+				FBB7EEBE1CC7BD1B00A2116C /* a.mp3 */,
+				FBB7EECA1CC7C29200A2116C /* b.mp3 */,
+				FBB7EEBF1CC7BD1B00A2116C /* c.mp3 */,
+				FBB7EEC01CC7BD1B00A2116C /* d.mp3 */,
+				FBB7EEC11CC7BD1B00A2116C /* e.mp3 */,
+				FBB7EEC21CC7BD1B00A2116C /* f.mp3 */,
+				FBB7EEC31CC7BD1B00A2116C /* g.mp3 */,
+				FB0B59251CC7E25C00C4A9AA /* black.jpg */,
+				FB0B59261CC7E25C00C4A9AA /* white.jpg */,
 				FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */,
 				FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */,
 				FBB7EE911CC7BBC700A2116C /* Main.storyboard */,
@@ -235,9 +262,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB7EEC91CC7BD1B00A2116C /* g.mp3 in Resources */,
+				FBB7EECB1CC7C29200A2116C /* b.mp3 in Resources */,
+				FBB7EEC41CC7BD1B00A2116C /* a.mp3 in Resources */,
+				FBB7EEC81CC7BD1B00A2116C /* f.mp3 in Resources */,
 				FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */,
+				FB0B59281CC7E25C00C4A9AA /* white.jpg in Resources */,
 				FBB7EE981CC7BBC700A2116C /* Assets.xcassets in Resources */,
+				FBB7EEC61CC7BD1B00A2116C /* d.mp3 in Resources */,
+				FBB7EEC71CC7BD1B00A2116C /* e.mp3 in Resources */,
+				FB0B59271CC7E25C00C4A9AA /* black.jpg in Resources */,
 				FBB7EE931CC7BBC700A2116C /* Main.storyboard in Resources */,
+				FBB7EEC51CC7BD1B00A2116C /* c.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +525,7 @@
 				FBB7EEB71CC7BBC700A2116C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBB7EEB81CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +534,7 @@
 				FBB7EEBA1CC7BBC700A2116C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBB7EEBB1CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtonesUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +543,7 @@
 				FBB7EEBD1CC7BBC700A2116C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
