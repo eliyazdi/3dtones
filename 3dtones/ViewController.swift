@@ -32,6 +32,26 @@ class ViewController: UIViewController {
         playSound(whichSound)
         forceLabel.text = whichSound.uppercaseString
     }
+    
+    func playNoteByForce(what : CGFloat){
+        if (what > 0) && (what < (2/3)){
+            playAnd("c")
+        }else if (what > (2/3)) && (what < (5/3)){
+            playAnd("d")
+        }else if (what > (5/3)) && (what < (8/3)){
+            playAnd("e")
+        }else if (what > (8/3)) && (what < (11/3)){
+            playAnd("f")
+        }else if (what > (11/3)) && (what < (14/3)){
+            playAnd("g")
+        }else if (what > (14/3)) && (what < (17/3)){
+            playAnd("e")
+        }else if (what > (17/3)) && (what < (20/3)){
+            playAnd("b")
+        }else{
+            playAnd("b")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,23 +67,7 @@ class ViewController: UIViewController {
         if let touch = touches.first {
                 if traitCollection.forceTouchCapability == UIForceTouchCapability.Available {
                     // 3D Touch capable
-                    if (touch.force > 0) && (touch.force < (2/3)){
-                        playAnd("a")
-                    }else if (touch.force > (2/3)) && (touch.force < (5/3)){
-                        playAnd("b")
-                    }else if (touch.force > (5/3)) && (touch.force < (8/3)){
-                        playAnd("c")
-                    }else if (touch.force > (8/3)) && (touch.force < (11/3)){
-                        playAnd("d")
-                    }else if (touch.force > (11/3)) && (touch.force < (14/3)){
-                        playAnd("e")
-                    }else if (touch.force > (14/3)) && (touch.force < (17/3)){
-                        playAnd("f")
-                    }else if (touch.force > (17/3)) && (touch.force < (20/3)){
-                        playAnd("g")
-                    }else{
-                        playAnd("a")
-                    }
+                    playNoteByForce(touch.force)
                 }else{
                     forceLabel.text = "Your device isn't compatible :("
                     
