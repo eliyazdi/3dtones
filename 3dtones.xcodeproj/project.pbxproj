@@ -18,6 +18,33 @@
 		FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE991CC7BBC700A2116C /* LaunchScreen.storyboard */; };
 		FBB7EEA61CC7BBC700A2116C /* _dtonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEA51CC7BBC700A2116C /* _dtonesTests.swift */; };
 		FBB7EEB11CC7BBC700A2116C /* _dtonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */; };
+		FBC114A71CCA5174003E9BC7 /* aboutme1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114A41CCA5174003E9BC7 /* aboutme1.png */; };
+		FBC114A81CCA5174003E9BC7 /* aboutme2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114A51CCA5174003E9BC7 /* aboutme2.png */; };
+		FBC114A91CCA5174003E9BC7 /* aboutme3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114A61CCA5174003E9BC7 /* aboutme3.png */; };
+		FBC114AD1CCA549F003E9BC7 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114AA1CCA549F003E9BC7 /* icon1.png */; };
+		FBC114AE1CCA549F003E9BC7 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114AB1CCA549F003E9BC7 /* icon2.png */; };
+		FBC114AF1CCA549F003E9BC7 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114AC1CCA549F003E9BC7 /* icon3.png */; };
+		FBC114B31CCA58D5003E9BC7 /* info1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B01CCA58D5003E9BC7 /* info1.png */; };
+		FBC114B41CCA58D5003E9BC7 /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B11CCA58D5003E9BC7 /* info2.png */; };
+		FBC114B51CCA58D5003E9BC7 /* info3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B21CCA58D5003E9BC7 /* info3.png */; };
+		FBC114B91CCA6021003E9BC7 /* twitter1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B61CCA6021003E9BC7 /* twitter1.png */; };
+		FBC114BA1CCA6021003E9BC7 /* twitter2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B71CCA6021003E9BC7 /* twitter2.png */; };
+		FBC114BB1CCA6021003E9BC7 /* twitter3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114B81CCA6021003E9BC7 /* twitter3.png */; };
+		FBC114BF1CCA6144003E9BC7 /* github1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114BC1CCA6144003E9BC7 /* github1.png */; };
+		FBC114C01CCA6144003E9BC7 /* github2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114BD1CCA6144003E9BC7 /* github2.png */; };
+		FBC114C11CCA6144003E9BC7 /* github3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114BE1CCA6144003E9BC7 /* github3.png */; };
+		FBC114C51CCA6219003E9BC7 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114C21CCA6219003E9BC7 /* back1.png */; };
+		FBC114C61CCA6219003E9BC7 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114C31CCA6219003E9BC7 /* back2.png */; };
+		FBC114C71CCA6219003E9BC7 /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114C41CCA6219003E9BC7 /* back3.png */; };
+		FBC114CB1CCA6BF6003E9BC7 /* piano1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114C81CCA6BF6003E9BC7 /* piano1.png */; };
+		FBC114CC1CCA6BF6003E9BC7 /* piano2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114C91CCA6BF6003E9BC7 /* piano2.png */; };
+		FBC114CD1CCA6BF6003E9BC7 /* piano3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114CA1CCA6BF6003E9BC7 /* piano3.png */; };
+		FBC114D11CCA6D80003E9BC7 /* flute1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114CE1CCA6D80003E9BC7 /* flute1.png */; };
+		FBC114D21CCA6D80003E9BC7 /* flute2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114CF1CCA6D80003E9BC7 /* flute2.png */; };
+		FBC114D31CCA6D80003E9BC7 /* flute3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114D01CCA6D80003E9BC7 /* flute3.png */; };
+		FBC114D71CCA6E24003E9BC7 /* violin1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114D41CCA6E24003E9BC7 /* violin1.png */; };
+		FBC114D81CCA6E24003E9BC7 /* violin2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114D51CCA6E24003E9BC7 /* violin2.png */; };
+		FBC114D91CCA6E24003E9BC7 /* violin3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC114D61CCA6E24003E9BC7 /* violin3.png */; };
 		FBD9C4DD1CCA41AF00CF83A5 /* Piano.mf.A1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FBD9C3D11CCA41AF00CF83A5 /* Piano.mf.A1.aiff */; };
 		FBD9C4DE1CCA41AF00CF83A5 /* Piano.mf.A2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FBD9C3D21CCA41AF00CF83A5 /* Piano.mf.A2.aiff */; };
 		FBD9C4DF1CCA41AF00CF83A5 /* Piano.mf.A3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FBD9C3D31CCA41AF00CF83A5 /* Piano.mf.A3.aiff */; };
@@ -165,6 +192,33 @@
 		FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3dtonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7EEB01CC7BBC700A2116C /* _dtonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dtonesUITests.swift; sourceTree = "<group>"; };
 		FBB7EEB21CC7BBC700A2116C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC114A41CCA5174003E9BC7 /* aboutme1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutme1.png; path = images/aboutme1.png; sourceTree = "<group>"; };
+		FBC114A51CCA5174003E9BC7 /* aboutme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutme2.png; path = images/aboutme2.png; sourceTree = "<group>"; };
+		FBC114A61CCA5174003E9BC7 /* aboutme3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutme3.png; path = images/aboutme3.png; sourceTree = "<group>"; };
+		FBC114AA1CCA549F003E9BC7 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = images/icon1.png; sourceTree = "<group>"; };
+		FBC114AB1CCA549F003E9BC7 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = images/icon2.png; sourceTree = "<group>"; };
+		FBC114AC1CCA549F003E9BC7 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3.png; path = images/icon3.png; sourceTree = "<group>"; };
+		FBC114B01CCA58D5003E9BC7 /* info1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info1.png; path = images/info1.png; sourceTree = "<group>"; };
+		FBC114B11CCA58D5003E9BC7 /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info2.png; path = images/info2.png; sourceTree = "<group>"; };
+		FBC114B21CCA58D5003E9BC7 /* info3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info3.png; path = images/info3.png; sourceTree = "<group>"; };
+		FBC114B61CCA6021003E9BC7 /* twitter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter1.png; path = images/twitter1.png; sourceTree = "<group>"; };
+		FBC114B71CCA6021003E9BC7 /* twitter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter2.png; path = images/twitter2.png; sourceTree = "<group>"; };
+		FBC114B81CCA6021003E9BC7 /* twitter3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter3.png; path = images/twitter3.png; sourceTree = "<group>"; };
+		FBC114BC1CCA6144003E9BC7 /* github1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github1.png; path = images/github1.png; sourceTree = "<group>"; };
+		FBC114BD1CCA6144003E9BC7 /* github2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github2.png; path = images/github2.png; sourceTree = "<group>"; };
+		FBC114BE1CCA6144003E9BC7 /* github3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github3.png; path = images/github3.png; sourceTree = "<group>"; };
+		FBC114C21CCA6219003E9BC7 /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back1.png; path = images/back1.png; sourceTree = "<group>"; };
+		FBC114C31CCA6219003E9BC7 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back2.png; path = images/back2.png; sourceTree = "<group>"; };
+		FBC114C41CCA6219003E9BC7 /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back3.png; path = images/back3.png; sourceTree = "<group>"; };
+		FBC114C81CCA6BF6003E9BC7 /* piano1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piano1.png; path = images/piano1.png; sourceTree = "<group>"; };
+		FBC114C91CCA6BF6003E9BC7 /* piano2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piano2.png; path = images/piano2.png; sourceTree = "<group>"; };
+		FBC114CA1CCA6BF6003E9BC7 /* piano3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piano3.png; path = images/piano3.png; sourceTree = "<group>"; };
+		FBC114CE1CCA6D80003E9BC7 /* flute1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flute1.png; path = images/flute1.png; sourceTree = "<group>"; };
+		FBC114CF1CCA6D80003E9BC7 /* flute2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flute2.png; path = images/flute2.png; sourceTree = "<group>"; };
+		FBC114D01CCA6D80003E9BC7 /* flute3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flute3.png; path = images/flute3.png; sourceTree = "<group>"; };
+		FBC114D41CCA6E24003E9BC7 /* violin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violin1.png; path = images/violin1.png; sourceTree = "<group>"; };
+		FBC114D51CCA6E24003E9BC7 /* violin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violin2.png; path = images/violin2.png; sourceTree = "<group>"; };
+		FBC114D61CCA6E24003E9BC7 /* violin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violin3.png; path = images/violin3.png; sourceTree = "<group>"; };
 		FBD9C3D11CCA41AF00CF83A5 /* Piano.mf.A1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = Piano.mf.A1.aiff; path = sounds/Piano.mf.A1.aiff; sourceTree = "<group>"; };
 		FBD9C3D21CCA41AF00CF83A5 /* Piano.mf.A2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = Piano.mf.A2.aiff; path = sounds/Piano.mf.A2.aiff; sourceTree = "<group>"; };
 		FBD9C3D31CCA41AF00CF83A5 /* Piano.mf.A3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = Piano.mf.A3.aiff; path = sounds/Piano.mf.A3.aiff; sourceTree = "<group>"; };
@@ -346,6 +400,33 @@
 				FBD9C5B31CCA48D500CF83A5 /* gear1.png */,
 				FBD9C5B41CCA48D500CF83A5 /* gear2.png */,
 				FBD9C5B51CCA48D500CF83A5 /* gear3.png */,
+				FBC114A41CCA5174003E9BC7 /* aboutme1.png */,
+				FBC114A51CCA5174003E9BC7 /* aboutme2.png */,
+				FBC114A61CCA5174003E9BC7 /* aboutme3.png */,
+				FBC114AA1CCA549F003E9BC7 /* icon1.png */,
+				FBC114AB1CCA549F003E9BC7 /* icon2.png */,
+				FBC114AC1CCA549F003E9BC7 /* icon3.png */,
+				FBC114B01CCA58D5003E9BC7 /* info1.png */,
+				FBC114B11CCA58D5003E9BC7 /* info2.png */,
+				FBC114B21CCA58D5003E9BC7 /* info3.png */,
+				FBC114B61CCA6021003E9BC7 /* twitter1.png */,
+				FBC114B71CCA6021003E9BC7 /* twitter2.png */,
+				FBC114B81CCA6021003E9BC7 /* twitter3.png */,
+				FBC114BC1CCA6144003E9BC7 /* github1.png */,
+				FBC114BD1CCA6144003E9BC7 /* github2.png */,
+				FBC114BE1CCA6144003E9BC7 /* github3.png */,
+				FBC114C21CCA6219003E9BC7 /* back1.png */,
+				FBC114C31CCA6219003E9BC7 /* back2.png */,
+				FBC114C41CCA6219003E9BC7 /* back3.png */,
+				FBC114C81CCA6BF6003E9BC7 /* piano1.png */,
+				FBC114C91CCA6BF6003E9BC7 /* piano2.png */,
+				FBC114CA1CCA6BF6003E9BC7 /* piano3.png */,
+				FBC114CE1CCA6D80003E9BC7 /* flute1.png */,
+				FBC114CF1CCA6D80003E9BC7 /* flute2.png */,
+				FBC114D01CCA6D80003E9BC7 /* flute3.png */,
+				FBC114D41CCA6E24003E9BC7 /* violin1.png */,
+				FBC114D51CCA6E24003E9BC7 /* violin2.png */,
+				FBC114D61CCA6E24003E9BC7 /* violin3.png */,
 				FBD9C3D11CCA41AF00CF83A5 /* Piano.mf.A1.aiff */,
 				FBD9C3D21CCA41AF00CF83A5 /* Piano.mf.A2.aiff */,
 				FBD9C3D31CCA41AF00CF83A5 /* Piano.mf.A3.aiff */,
@@ -574,12 +655,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC114A81CCA5174003E9BC7 /* aboutme2.png in Resources */,
+				FBC114A91CCA5174003E9BC7 /* aboutme3.png in Resources */,
 				FBD9C4FE1CCA41AF00CF83A5 /* Piano.mf.C5.aiff in Resources */,
 				FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */,
 				FB0B59281CC7E25C00C4A9AA /* white.jpg in Resources */,
 				FBD9C5B01CCA446500CF83A5 /* darkblue1.png in Resources */,
 				FBD9C4DF1CCA41AF00CF83A5 /* Piano.mf.A3.aiff in Resources */,
 				FBD9C4F51CCA41AF00CF83A5 /* Piano.mf.Bb3.aiff in Resources */,
+				FBC114A71CCA5174003E9BC7 /* aboutme1.png in Resources */,
 				FBD9C4DD1CCA41AF00CF83A5 /* Piano.mf.A1.aiff in Resources */,
 				FBD9C52D1CCA41AF00CF83A5 /* Piano.mf.G6.aiff in Resources */,
 				FBD9C5331CCA41AF00CF83A5 /* Piano.mf.Gb5.aiff in Resources */,
@@ -593,13 +677,18 @@
 				FBD9C4F21CCA41AF00CF83A5 /* Piano.mf.B7.aiff in Resources */,
 				FBD9C5351CCA41AF00CF83A5 /* Piano.mf.Gb7.aiff in Resources */,
 				FBD9C59F1CCA41D800CF83A5 /* blue2.png in Resources */,
+				FBC114D71CCA6E24003E9BC7 /* violin1.png in Resources */,
 				FBD9C5341CCA41AF00CF83A5 /* Piano.mf.Gb6.aiff in Resources */,
+				FBC114B91CCA6021003E9BC7 /* twitter1.png in Resources */,
 				FBD9C5311CCA41AF00CF83A5 /* Piano.mf.Gb3.aiff in Resources */,
 				FBD9C4ED1CCA41AF00CF83A5 /* Piano.mf.B2.aiff in Resources */,
 				FBD9C4EF1CCA41AF00CF83A5 /* Piano.mf.B4.aiff in Resources */,
 				FBD9C51A1CCA41AF00CF83A5 /* Piano.mf.Eb1.aiff in Resources */,
 				FBD9C4F31CCA41AF00CF83A5 /* Piano.mf.Bb1.aiff in Resources */,
 				FBD9C5321CCA41AF00CF83A5 /* Piano.mf.Gb4.aiff in Resources */,
+				FBC114C51CCA6219003E9BC7 /* back1.png in Resources */,
+				FBC114AE1CCA549F003E9BC7 /* icon2.png in Resources */,
+				FBC114D31CCA6D80003E9BC7 /* flute3.png in Resources */,
 				FBD9C52F1CCA41AF00CF83A5 /* Piano.mf.Gb1.aiff in Resources */,
 				FBD9C4F81CCA41AF00CF83A5 /* Piano.mf.Bb6.aiff in Resources */,
 				FBD9C5B71CCA48D500CF83A5 /* gear2.png in Resources */,
@@ -609,13 +698,17 @@
 				FBB7EE981CC7BBC700A2116C /* Assets.xcassets in Resources */,
 				FBD9C52B1CCA41AF00CF83A5 /* Piano.mf.G4.aiff in Resources */,
 				FBD9C4E61CCA41AF00CF83A5 /* Piano.mf.Ab3.aiff in Resources */,
+				FBC114C11CCA6144003E9BC7 /* github3.png in Resources */,
+				FBC114AD1CCA549F003E9BC7 /* icon1.png in Resources */,
 				FBD9C5221CCA41AF00CF83A5 /* Piano.mf.F2.aiff in Resources */,
 				FBD9C5A81CCA41D800CF83A5 /* pink2.png in Resources */,
 				FBD9C4EC1CCA41AF00CF83A5 /* Piano.mf.B1.aiff in Resources */,
 				FBD9C5201CCA41AF00CF83A5 /* Piano.mf.Eb7.aiff in Resources */,
+				FBC114B31CCA58D5003E9BC7 /* info1.png in Resources */,
 				FBD9C5001CCA41AF00CF83A5 /* Piano.mf.C7.aiff in Resources */,
 				FB0B59271CC7E25C00C4A9AA /* black.jpg in Resources */,
 				FBD9C5161CCA41AF00CF83A5 /* Piano.mf.E4.aiff in Resources */,
+				FBC114D21CCA6D80003E9BC7 /* flute2.png in Resources */,
 				FBD9C51D1CCA41AF00CF83A5 /* Piano.mf.Eb4.aiff in Resources */,
 				FBD9C50E1CCA41AF00CF83A5 /* Piano.mf.Db4.aiff in Resources */,
 				FBD9C50C1CCA41AF00CF83A5 /* Piano.mf.Db2.aiff in Resources */,
@@ -627,6 +720,7 @@
 				FBD9C4E01CCA41AF00CF83A5 /* Piano.mf.A4.aiff in Resources */,
 				FBD9C5051CCA41AF00CF83A5 /* Piano.mf.D3.aiff in Resources */,
 				FBD9C5041CCA41AF00CF83A5 /* Piano.mf.D2.aiff in Resources */,
+				FBC114D81CCA6E24003E9BC7 /* violin2.png in Resources */,
 				FBD9C5101CCA41AF00CF83A5 /* Piano.mf.Db6.aiff in Resources */,
 				FBD9C51B1CCA41AF00CF83A5 /* Piano.mf.Eb2.aiff in Resources */,
 				FBD9C4F01CCA41AF00CF83A5 /* Piano.mf.B5.aiff in Resources */,
@@ -636,11 +730,14 @@
 				FBD9C50B1CCA41AF00CF83A5 /* Piano.mf.Db1.aiff in Resources */,
 				FBD9C5121CCA41AF00CF83A5 /* Piano.mf.E1.1.aiff in Resources */,
 				FBD9C4E51CCA41AF00CF83A5 /* Piano.mf.Ab2.aiff in Resources */,
+				FBC114BB1CCA6021003E9BC7 /* twitter3.png in Resources */,
 				FBD9C5031CCA41AF00CF83A5 /* Piano.mf.D1.aiff in Resources */,
 				FBD9C5AA1CCA41D800CF83A5 /* red1.png in Resources */,
+				FBC114B41CCA58D5003E9BC7 /* info2.png in Resources */,
 				FBD9C5A41CCA41D800CF83A5 /* orange1.png in Resources */,
 				FBD9C5A51CCA41D800CF83A5 /* orange2.png in Resources */,
 				FBD9C4EA1CCA41AF00CF83A5 /* Piano.mf.Ab7.aiff in Resources */,
+				FBC114B51CCA58D5003E9BC7 /* info3.png in Resources */,
 				FBD9C5261CCA41AF00CF83A5 /* Piano.mf.F6.aiff in Resources */,
 				FBD9C5191CCA41AF00CF83A5 /* Piano.mf.E7.aiff in Resources */,
 				FBD9C4E21CCA41AF00CF83A5 /* Piano.mf.A6.aiff in Resources */,
@@ -652,10 +749,12 @@
 				FBD9C5A31CCA41D800CF83A5 /* grey3.png in Resources */,
 				FBD9C5A91CCA41D800CF83A5 /* pink3.png in Resources */,
 				FBD9C59E1CCA41D800CF83A5 /* blue1.png in Resources */,
+				FBC114CB1CCA6BF6003E9BC7 /* piano1.png in Resources */,
 				FBD9C5AB1CCA41D800CF83A5 /* red2.png in Resources */,
 				FBD9C4E41CCA41AF00CF83A5 /* Piano.mf.Ab1.aiff in Resources */,
 				FBD9C5A71CCA41D800CF83A5 /* pink1.png in Resources */,
 				FBD9C52A1CCA41AF00CF83A5 /* Piano.mf.G3.aiff in Resources */,
+				FBC114CD1CCA6BF6003E9BC7 /* piano3.png in Resources */,
 				FBD9C5151CCA41AF00CF83A5 /* Piano.mf.E3.aiff in Resources */,
 				FB119E571CC95F7700B0A6C7 /* Main.storyboard in Resources */,
 				FBD9C4FA1CCA41AF00CF83A5 /* Piano.mf.C1.aiff in Resources */,
@@ -663,26 +762,35 @@
 				FBD9C52C1CCA41AF00CF83A5 /* Piano.mf.G5.aiff in Resources */,
 				FBD9C5B61CCA48D500CF83A5 /* gear1.png in Resources */,
 				FBD9C5011CCA41AF00CF83A5 /* Piano.mf.C8.aiff in Resources */,
+				FBC114BA1CCA6021003E9BC7 /* twitter2.png in Resources */,
 				FBD9C4FF1CCA41AF00CF83A5 /* Piano.mf.C6.aiff in Resources */,
 				FBD9C5A21CCA41D800CF83A5 /* grey2.png in Resources */,
 				FBD9C4E91CCA41AF00CF83A5 /* Piano.mf.Ab6.aiff in Resources */,
 				FBD9C5B81CCA48D500CF83A5 /* gear3.png in Resources */,
+				FBC114C61CCA6219003E9BC7 /* back2.png in Resources */,
 				FBD9C5231CCA41AF00CF83A5 /* Piano.mf.F3.aiff in Resources */,
 				FBD9C5281CCA41AF00CF83A5 /* Piano.mf.G1.aiff in Resources */,
+				FBC114CC1CCA6BF6003E9BC7 /* piano2.png in Resources */,
+				FBC114D11CCA6D80003E9BC7 /* flute1.png in Resources */,
+				FBC114BF1CCA6144003E9BC7 /* github1.png in Resources */,
 				FBD9C4E81CCA41AF00CF83A5 /* Piano.mf.Ab5.aiff in Resources */,
 				FBD9C5271CCA41AF00CF83A5 /* Piano.mf.F7.aiff in Resources */,
 				FBD9C5081CCA41AF00CF83A5 /* Piano.mf.D6.aiff in Resources */,
 				FBD9C4EB1CCA41AF00CF83A5 /* Piano.mf.B0.aiff in Resources */,
+				FBC114C71CCA6219003E9BC7 /* back3.png in Resources */,
 				FBD9C4FC1CCA41AF00CF83A5 /* Piano.mf.C3.aiff in Resources */,
 				FBD9C4E11CCA41AF00CF83A5 /* Piano.mf.A5.aiff in Resources */,
 				FBD9C4F91CCA41AF00CF83A5 /* Piano.mf.Bb7.aiff in Resources */,
 				FBD9C5A61CCA41D800CF83A5 /* orange3.png in Resources */,
 				FBD9C4E31CCA41AF00CF83A5 /* Piano.mf.A7.aiff in Resources */,
 				FBD9C5301CCA41AF00CF83A5 /* Piano.mf.Gb2.aiff in Resources */,
+				FBC114C01CCA6144003E9BC7 /* github2.png in Resources */,
 				FBD9C51F1CCA41AF00CF83A5 /* Piano.mf.Eb6.aiff in Resources */,
+				FBC114D91CCA6E24003E9BC7 /* violin3.png in Resources */,
 				FBD9C51C1CCA41AF00CF83A5 /* Piano.mf.Eb3.aiff in Resources */,
 				FBD9C4FB1CCA41AF00CF83A5 /* Piano.mf.C2.aiff in Resources */,
 				FBD9C5A11CCA41D800CF83A5 /* grey1.png in Resources */,
+				FBC114AF1CCA549F003E9BC7 /* icon3.png in Resources */,
 				FBD9C5111CCA41AF00CF83A5 /* Piano.mf.Db7.aiff in Resources */,
 				FBD9C4F41CCA41AF00CF83A5 /* Piano.mf.Bb2.aiff in Resources */,
 				FBD9C51E1CCA41AF00CF83A5 /* Piano.mf.Eb5.aiff in Resources */,
