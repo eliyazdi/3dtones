@@ -9,10 +9,19 @@
 import UIKit
 import AVFoundation
 
+let prefs = NSUserDefaults.standardUserDefaults()
+
+func setInstrument(ins : String){
+    prefs.setValue(ins, forKey: "instrument")
+}
+
 var myAudioPlayer = AVAudioPlayer()
 
-func playSound(whichSound : String){
-    let url = "Piano.mf."+whichSound
+func playSound(whichSound : String, instrument : String){
+    var url = ""
+    if instrument == "piano"{
+        url = "Piano.mf."+whichSound
+    }
     print(url)
     let filePathC = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(url, ofType: "aiff")!)
     do{
@@ -20,20 +29,6 @@ func playSound(whichSound : String){
         myAudioPlayer.play()
     }catch{
         print("error")
-    }
-}
-
-
-class ViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
@@ -57,16 +52,168 @@ func octaveByForce(what : CGFloat) -> String{
     }
 }
 
-class keyboardKey : UIButton{
+func playPlus(note : String, force : CGFloat){
+    print(force)
+    let octave = octaveByForce(force)
+    let instrument = prefs.stringForKey("instrument")
+    playSound(note+octave, instrument: instrument!)
+}
+
+class key1 : UIButton{
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         for touch in touches{
-            let octave = octaveByForce(touch.force)
-            print(touch.force)
-            playSound("C"+octave)
+            playPlus("A", force: touch.force)
         }
     }
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         print("Touches End")
+    }
+}
+
+class key2 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("B", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class key3 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("C", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class key4 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("D", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class key5 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("E", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class key6 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("F", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class key7 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("G", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class keyB1 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("Bb", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class keyB2 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("Db", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class keyB3 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("Eb", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class keyB4 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("Gb", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class keyB5 : UIButton{
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            playPlus("Ab", force: touch.force)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+    }
+}
+
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+//        if (prefs.stringForKey("instrument") == nil){
+            setInstrument("piano")
+//        }
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 }
