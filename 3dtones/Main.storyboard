@@ -123,7 +123,7 @@
                                 </constraints>
                                 <state key="normal" image="gear3.png"/>
                                 <connections>
-                                    <segue destination="cQp-1B-RH7" kind="show" id="nbG-PT-KDe"/>
+                                    <segue destination="cQp-1B-RH7" kind="show" animates="NO" id="nbG-PT-KDe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6X-Ym-xJc" customClass="keyB3" customModule="_dtones" customModuleProvider="target">
@@ -216,14 +216,14 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="326-B6-Mqp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="326-B6-Mqp">
                                 <rect key="frame" x="173" y="69" width="508" height="199"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="508" id="Tts-Xe-HTY"/>
                                     <constraint firstAttribute="height" constant="199" id="mSN-lw-kuG"/>
                                 </constraints>
-                                <mutableString key="text">I'm Eli, I'm 14, and I like to code things. I've been dabbling in programming for quite a few years, but just last year I got more serious about it and started regularly coding, most of the time in JavaScript. This is my first time building an app for iOS. If you have any questions or comments about this app, feel free to tweet at me and hopefully I'll get back to you. If you want to take a look at the source code, it's available on GitHub (but I do warn you that it is a bit messy). Thanks for checking out my app, I hope you're enjoying it! :) </mutableString>
+                                <string key="text">I'm Eli, I'm 14, and I like to code things. I've been dabbling in programming for quite a few years, but just last year I got more serious about it and started regularly coding, most of the time in JavaScript. This is my first time building an app for iOS. If you have any questions or comments about this app, feel free to tweet at me and hopefully I'll get back to you. If you want to take a look at the source code, it's available on GitHub (but I do warn you that it is a bit messy). Thanks for checking out my app, I hope you're enjoying it! :) </string>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -250,7 +250,7 @@
                                 </constraints>
                                 <state key="normal" image="back3.png"/>
                                 <connections>
-                                    <segue destination="cQp-1B-RH7" kind="show" id="ILd-e4-CkV"/>
+                                    <segue destination="cQp-1B-RH7" kind="show" animates="NO" id="ILd-e4-CkV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -302,7 +302,7 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="98u-mM-mAo">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98u-mM-mAo">
                                 <rect key="frame" x="114" y="172" width="509" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Instrument sounds are from the University of Iowa Electronic Music Studios Project. Some icons used are from Flaticon authors Gregor Cresnar, Lucy G, Freepik, and Elegant Themes.</string>
@@ -318,7 +318,7 @@
                                 </constraints>
                                 <state key="normal" image="back3.png"/>
                                 <connections>
-                                    <segue destination="cQp-1B-RH7" kind="show" id="sTU-dR-75p"/>
+                                    <segue destination="cQp-1B-RH7" kind="show" animates="NO" id="sTU-dR-75p"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -355,7 +355,7 @@
                                 </constraints>
                                 <state key="normal" image="back3.png"/>
                                 <connections>
-                                    <segue destination="3HY-Ka-NKO" kind="presentation" id="Ne2-aw-Obd"/>
+                                    <segue destination="3HY-Ka-NKO" kind="show" animates="NO" id="OxH-yb-6Np"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jW6-fk-iSm">
@@ -367,7 +367,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" image="aboutme3.png"/>
                                 <connections>
-                                    <segue destination="WeC-XX-N0A" kind="show" id="aNz-p8-Wxa"/>
+                                    <segue destination="WeC-XX-N0A" kind="show" animates="NO" id="aNz-p8-Wxa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q7-Mu-KPC">
@@ -378,9 +378,29 @@
                                 </constraints>
                                 <state key="normal" image="info3.png"/>
                                 <connections>
-                                    <segue destination="JLw-Lo-IRG" kind="show" id="iVe-Dk-wQ7"/>
+                                    <segue destination="JLw-Lo-IRG" kind="show" animates="NO" id="iVe-Dk-wQ7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT ME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVc-3B-yY7">
+                                <rect key="frame" x="264" y="265" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="Quv-jW-syb"/>
+                                    <constraint firstAttribute="height" constant="21" id="YAb-eb-M1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1X4-gO-rdi">
+                                <rect key="frame" x="396" y="265" width="43" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="43" id="SR3-7U-Qwr"/>
+                                    <constraint firstAttribute="height" constant="21" id="hDe-g7-u9X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -388,8 +408,12 @@
                             <constraint firstItem="9q7-Mu-KPC" firstAttribute="centerY" secondItem="bkk-eF-SFh" secondAttribute="centerY" id="Heo-MP-HbP"/>
                             <constraint firstItem="9q7-Mu-KPC" firstAttribute="leading" secondItem="jW6-fk-iSm" secondAttribute="trailing" constant="8" id="LPr-8s-8UI"/>
                             <constraint firstItem="jW6-fk-iSm" firstAttribute="centerY" secondItem="bkk-eF-SFh" secondAttribute="centerY" id="OdS-IZ-ICT"/>
+                            <constraint firstItem="zVc-3B-yY7" firstAttribute="top" secondItem="jW6-fk-iSm" secondAttribute="bottom" constant="8" id="ZSN-v1-F9V"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9q7-Mu-KPC" secondAttribute="trailing" constant="249" id="aDD-UD-rXO"/>
                             <constraint firstItem="jW6-fk-iSm" firstAttribute="leading" secondItem="bkk-eF-SFh" secondAttribute="leadingMargin" constant="239" id="bGd-mE-8B8"/>
+                            <constraint firstItem="1X4-gO-rdi" firstAttribute="leading" secondItem="zVc-3B-yY7" secondAttribute="trailing" constant="41" id="ceY-ot-56C"/>
+                            <constraint firstItem="zVc-3B-yY7" firstAttribute="leading" secondItem="bkk-eF-SFh" secondAttribute="leadingMargin" constant="244" id="k9Q-Yj-IN8"/>
+                            <constraint firstItem="1X4-gO-rdi" firstAttribute="top" secondItem="9q7-Mu-KPC" secondAttribute="bottom" constant="8" id="lIb-3G-waT"/>
                             <constraint firstItem="YBK-XE-jkd" firstAttribute="top" secondItem="sIo-Wj-aF9" secondAttribute="bottom" constant="17" id="wVU-1m-PfA"/>
                         </constraints>
                     </view>
@@ -415,6 +439,6 @@
         <image name="twitter3.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ILd-e4-CkV"/>
+        <segue reference="nbG-PT-KDe"/>
     </inferredMetricsTieBreakers>
 </document>
