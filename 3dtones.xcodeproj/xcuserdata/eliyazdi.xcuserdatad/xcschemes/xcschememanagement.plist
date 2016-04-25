@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>3dKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>3dtones.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FB123ECC1CCD66CE008370C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FBB7EE891CC7BBC600A2116C</key>
 		<dict>
 			<key>primary</key>

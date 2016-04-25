@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB0B59271CC7E25C00C4A9AA /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0B59251CC7E25C00C4A9AA /* black.jpg */; };
-		FB0B59281CC7E25C00C4A9AA /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0B59261CC7E25C00C4A9AA /* white.jpg */; };
 		FB119E571CC95F7700B0A6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB119E561CC95F7700B0A6C7 /* Main.storyboard */; };
+		FB123ED01CCD66CE008370C8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB123ECF1CCD66CE008370C8 /* KeyboardViewController.swift */; };
+		FB123ED41CCD66CE008370C8 /* 3dKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB123ECD1CCD66CE008370C8 /* 3dKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB123EDA1CCD681B008370C8 /* 3dKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB123ED91CCD681B008370C8 /* 3dKeyboard.xib */; };
+		FB5357421CCE4E46003FDD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5357411CCE4E46003FDD68 /* Main.storyboard */; };
+		FB5357441CCE54DD003FDD68 /* keyboardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5357431CCE54DD003FDD68 /* keyboardbutton.png */; };
+		FB5357461CCE5550003FDD68 /* keyboardkey.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5357451CCE5550003FDD68 /* keyboardkey.png */; };
+		FB53574A1CCE5736003FDD68 /* internet.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5357491CCE5736003FDD68 /* internet.png */; };
+		FB53574C1CCE575F003FDD68 /* internet-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53574B1CCE575F003FDD68 /* internet-2.png */; };
+		FB53574E1CCE57A5003FDD68 /* arrows-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53574D1CCE57A5003FDD68 /* arrows-2.png */; };
+		FB5357501CCE585A003FDD68 /* arrows-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53574F1CCE585A003FDD68 /* arrows-3.png */; };
+		FB5357521CCE589F003FDD68 /* arrows-4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5357511CCE589F003FDD68 /* arrows-4.png */; };
 		FBB7EE8E1CC7BBC700A2116C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */; };
 		FBB7EE901CC7BBC700A2116C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */; };
 		FBB7EE931CC7BBC700A2116C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7EE911CC7BBC700A2116C /* Main.storyboard */; };
@@ -158,6 +167,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FB123ED21CCD66CE008370C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB7EE821CC7BBC600A2116C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB123ECC1CCD66CE008370C8;
+			remoteInfo = 3dKeyboard;
+		};
 		FBB7EEA21CC7BBC700A2116C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FBB7EE821CC7BBC600A2116C /* Project object */;
@@ -174,10 +190,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FB123ED81CCD66CE008370C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB123ED41CCD66CE008370C8 /* 3dKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		FB0B59251CC7E25C00C4A9AA /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black.jpg; path = ../../Downloads/SwiftPiano/image/black.jpg; sourceTree = "<group>"; };
-		FB0B59261CC7E25C00C4A9AA /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white.jpg; path = ../../Downloads/SwiftPiano/image/white.jpg; sourceTree = "<group>"; };
 		FB119E561CC95F7700B0A6C7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB123ECD1CCD66CE008370C8 /* 3dKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = 3dKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB123ECF1CCD66CE008370C8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		FB123ED11CCD66CE008370C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB123ED91CCD681B008370C8 /* 3dKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = 3dKeyboard.xib; sourceTree = "<group>"; };
+		FB5357411CCE4E46003FDD68 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB5357431CCE54DD003FDD68 /* keyboardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboardbutton.png; sourceTree = "<group>"; };
+		FB5357451CCE5550003FDD68 /* keyboardkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboardkey.png; sourceTree = "<group>"; };
+		FB5357491CCE5736003FDD68 /* internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = internet.png; sourceTree = "<group>"; };
+		FB53574B1CCE575F003FDD68 /* internet-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internet-2.png"; sourceTree = "<group>"; };
+		FB53574D1CCE57A5003FDD68 /* arrows-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrows-2.png"; sourceTree = "<group>"; };
+		FB53574F1CCE585A003FDD68 /* arrows-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrows-3.png"; sourceTree = "<group>"; };
+		FB5357511CCE589F003FDD68 /* arrows-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrows-4.png"; sourceTree = "<group>"; };
 		FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dtones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -332,6 +372,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB123ECA1CCD66CE008370C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBB7EE871CC7BBC600A2116C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,12 +403,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB123ECE1CCD66CE008370C8 /* 3dKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FB5357511CCE589F003FDD68 /* arrows-4.png */,
+				FB53574F1CCE585A003FDD68 /* arrows-3.png */,
+				FB53574D1CCE57A5003FDD68 /* arrows-2.png */,
+				FB53574B1CCE575F003FDD68 /* internet-2.png */,
+				FB5357491CCE5736003FDD68 /* internet.png */,
+				FB5357451CCE5550003FDD68 /* keyboardkey.png */,
+				FB5357431CCE54DD003FDD68 /* keyboardbutton.png */,
+				FB123ECF1CCD66CE008370C8 /* KeyboardViewController.swift */,
+				FB123ED11CCD66CE008370C8 /* Info.plist */,
+				FB123ED91CCD681B008370C8 /* 3dKeyboard.xib */,
+				FB5357411CCE4E46003FDD68 /* Main.storyboard */,
+			);
+			path = 3dKeyboard;
+			sourceTree = "<group>";
+		};
 		FBB7EE811CC7BBC600A2116C = {
 			isa = PBXGroup;
 			children = (
 				FBB7EE8C1CC7BBC700A2116C /* 3dtones */,
 				FBB7EEA41CC7BBC700A2116C /* 3dtonesTests */,
 				FBB7EEAF1CC7BBC700A2116C /* 3dtonesUITests */,
+				FB123ECE1CCD66CE008370C8 /* 3dKeyboard */,
 				FBB7EE8B1CC7BBC600A2116C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -372,6 +438,7 @@
 				FBB7EE8A1CC7BBC600A2116C /* 3dtones.app */,
 				FBB7EEA11CC7BBC700A2116C /* 3dtonesTests.xctest */,
 				FBB7EEAC1CC7BBC700A2116C /* 3dtonesUITests.xctest */,
+				FB123ECD1CCD66CE008370C8 /* 3dKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -516,8 +583,6 @@
 				FBD9C4271CCA41AF00CF83A5 /* Piano.mf.Gb5.aiff */,
 				FBD9C4281CCA41AF00CF83A5 /* Piano.mf.Gb6.aiff */,
 				FBD9C4291CCA41AF00CF83A5 /* Piano.mf.Gb7.aiff */,
-				FB0B59251CC7E25C00C4A9AA /* black.jpg */,
-				FB0B59261CC7E25C00C4A9AA /* white.jpg */,
 				FBB7EE8D1CC7BBC700A2116C /* AppDelegate.swift */,
 				FBB7EE8F1CC7BBC700A2116C /* ViewController.swift */,
 				FBB7EE911CC7BBC700A2116C /* Main.storyboard */,
@@ -551,6 +616,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FB123ECC1CCD66CE008370C8 /* 3dKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB123ED71CCD66CE008370C8 /* Build configuration list for PBXNativeTarget "3dKeyboard" */;
+			buildPhases = (
+				FB123EC91CCD66CE008370C8 /* Sources */,
+				FB123ECA1CCD66CE008370C8 /* Frameworks */,
+				FB123ECB1CCD66CE008370C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3dKeyboard;
+			productName = 3dKeyboard;
+			productReference = FB123ECD1CCD66CE008370C8 /* 3dKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FBB7EE891CC7BBC600A2116C /* 3dtones */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB7EEB51CC7BBC700A2116C /* Build configuration list for PBXNativeTarget "3dtones" */;
@@ -558,10 +640,12 @@
 				FBB7EE861CC7BBC600A2116C /* Sources */,
 				FBB7EE871CC7BBC600A2116C /* Frameworks */,
 				FBB7EE881CC7BBC600A2116C /* Resources */,
+				FB123ED81CCD66CE008370C8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FB123ED31CCD66CE008370C8 /* PBXTargetDependency */,
 			);
 			name = 3dtones;
 			productName = 3dtones;
@@ -614,6 +698,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Eli Yazdi";
 				TargetAttributes = {
+					FB123ECC1CCD66CE008370C8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3NBA9YL8AA;
+					};
 					FBB7EE891CC7BBC600A2116C = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 3NBA9YL8AA;
@@ -646,11 +734,28 @@
 				FBB7EE891CC7BBC600A2116C /* 3dtones */,
 				FBB7EEA01CC7BBC700A2116C /* 3dtonesTests */,
 				FBB7EEAB1CC7BBC700A2116C /* 3dtonesUITests */,
+				FB123ECC1CCD66CE008370C8 /* 3dKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FB123ECB1CCD66CE008370C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB53574A1CCE5736003FDD68 /* internet.png in Resources */,
+				FB5357521CCE589F003FDD68 /* arrows-4.png in Resources */,
+				FB53574C1CCE575F003FDD68 /* internet-2.png in Resources */,
+				FB5357461CCE5550003FDD68 /* keyboardkey.png in Resources */,
+				FB123EDA1CCD681B008370C8 /* 3dKeyboard.xib in Resources */,
+				FB5357421CCE4E46003FDD68 /* Main.storyboard in Resources */,
+				FB5357501CCE585A003FDD68 /* arrows-3.png in Resources */,
+				FB5357441CCE54DD003FDD68 /* keyboardbutton.png in Resources */,
+				FB53574E1CCE57A5003FDD68 /* arrows-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBB7EE881CC7BBC600A2116C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,7 +764,6 @@
 				FBC114A91CCA5174003E9BC7 /* aboutme3.png in Resources */,
 				FBD9C4FE1CCA41AF00CF83A5 /* Piano.mf.C5.aiff in Resources */,
 				FBB7EE9B1CC7BBC700A2116C /* LaunchScreen.storyboard in Resources */,
-				FB0B59281CC7E25C00C4A9AA /* white.jpg in Resources */,
 				FBD9C5B01CCA446500CF83A5 /* darkblue1.png in Resources */,
 				FBD9C4DF1CCA41AF00CF83A5 /* Piano.mf.A3.aiff in Resources */,
 				FBD9C4F51CCA41AF00CF83A5 /* Piano.mf.Bb3.aiff in Resources */,
@@ -706,7 +810,6 @@
 				FBD9C5201CCA41AF00CF83A5 /* Piano.mf.Eb7.aiff in Resources */,
 				FBC114B31CCA58D5003E9BC7 /* info1.png in Resources */,
 				FBD9C5001CCA41AF00CF83A5 /* Piano.mf.C7.aiff in Resources */,
-				FB0B59271CC7E25C00C4A9AA /* black.jpg in Resources */,
 				FBD9C5161CCA41AF00CF83A5 /* Piano.mf.E4.aiff in Resources */,
 				FBC114D21CCA6D80003E9BC7 /* flute2.png in Resources */,
 				FBD9C51D1CCA41AF00CF83A5 /* Piano.mf.Eb4.aiff in Resources */,
@@ -818,6 +921,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB123EC91CCD66CE008370C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB123ED01CCD66CE008370C8 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBB7EE861CC7BBC600A2116C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -847,6 +958,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FB123ED31CCD66CE008370C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB123ECC1CCD66CE008370C8 /* 3dKeyboard */;
+			targetProxy = FB123ED21CCD66CE008370C8 /* PBXContainerItemProxy */;
+		};
 		FBB7EEA31CC7BBC700A2116C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FBB7EE891CC7BBC600A2116C /* 3dtones */;
@@ -879,6 +995,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FB123ED51CCD66CE008370C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3dKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones.-dKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB123ED61CCD66CE008370C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3dKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones.-dKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FBB7EEB31CC7BBC700A2116C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -966,6 +1104,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = 3dtones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones";
@@ -977,6 +1116,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = 3dtones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eliyazdi.-dtones";
@@ -1033,6 +1173,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB123ED71CCD66CE008370C8 /* Build configuration list for PBXNativeTarget "3dKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB123ED51CCD66CE008370C8 /* Debug */,
+				FB123ED61CCD66CE008370C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FBB7EE851CC7BBC600A2116C /* Build configuration list for PBXProject "3dtones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
