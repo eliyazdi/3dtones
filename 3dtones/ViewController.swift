@@ -9,6 +9,9 @@
 import UIKit
 import AVFoundation
 
+
+var typing : String = ""
+
 let prefs = NSUserDefaults.standardUserDefaults()
 
 func setInstrument(ins : String){
@@ -203,6 +206,196 @@ class keyB5 : UIButton{
     }
 }
 
+func getCharByForce(force : CGFloat, chars : Array<String>) -> String{
+    if (force >= 0) && (force < (2/3)){
+        //Level 1
+        return chars[0]
+    }else if (force > (2/3)) && (force < (5/3)){
+        //Level 2
+        return chars[1]
+    }else if (force > (5/3)) && (force < (8/3)){
+        //Level 3
+        return chars[2]
+    }else if (force > (8/3)) && (force < (11/3)){
+        //Level 4
+        return chars[3]
+    }else if (force > (11/3)) && (force < (14/3)){
+        //Level 5
+        return chars[4]
+    }else if (force > (14/3)) && (force < (17/3)){
+        //Level 6
+        return chars[5]
+    }else if (force > (17/3)) && (force <= (20/3)){
+        //Level 7
+        return chars[6]
+    }else{
+        //Else??
+        return chars[0]
+    }
+}
+
+class keyboard1 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["A", "B", "C", "D", "E", "F", "G"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard2 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["H", "I", "J", "K", "L", "M", "N"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard3 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["O", "P", "Q", "R", "S", "T", "U"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard4 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["V", "W", "X", "Y", "Z", "0", "1"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard5 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["2", "3", "4", "5", "6", "7", "8"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard6 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["9", "!", "@", "#", "$", "%", "^"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard7 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["&", "*", "(", ")", "-", "_", "+"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard8 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["=", "[", "]", "\\", ";", ":", "'"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
+class keyboard9 : UIButton {
+    var out : String = ""
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches{
+            print(touch.force)
+            let chars = ["\"", ",", "<", ".", ">", "/", "?"]
+            out = getCharByForce(touch.force, chars: chars)
+            print(out)
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Touches End")
+        typing += out
+        print(typing)
+    }
+}
+
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -212,8 +405,20 @@ class ViewController: UIViewController {
 //        }
     }
 
+    @IBAction func backspace(sender: UIButton) {
+        if typing.characters.count > 0{
+            let desiredLength = typing.startIndex.advancedBy(typing.characters.count-1)
+            let truncated = typing.substringToIndex(desiredLength)
+            typing = truncated
+            print(typing)
+        }
+    }
+    @IBAction func spaceKey(sender: UIButton) {
+        typing+=" "
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        NSURLCache.sharedURLCache().removeAllCachedResponses()
     }
 }
